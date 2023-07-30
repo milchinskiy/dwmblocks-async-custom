@@ -5,7 +5,6 @@
 
 Block blocks[] = {
     {"~/.config/dwmblocks/scripts/kb-layout.sh",       600,    19},
-    {"~/.config/dwmblocks/scripts/pacman.updates.sh",	6000,   12},
     {"~/.config/dwmblocks/scripts/volume.sh",          0,      10},
     {"~/.config/dwmblocks/scripts/battery.sh",			300,    0},
     {"~/.config/dwmblocks/scripts/cpu.load.sh",		2,	    0},
