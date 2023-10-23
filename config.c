@@ -5,7 +5,7 @@
 
 Block blocks[] = {
     {"dwmblocks_scripts --keyboard-layout", 600,    19},
-    // {"dwmblocks_scripts --pacman-updates",	6000,   12},
+    {"dwmblocks_scripts --pacman-updates",	6000,   12},
     {"dwmblocks_scripts --volume",          0,      10},
     {"dwmblocks_scripts --battery",         300,    0},
     {"dwmblocks_scripts --cpu-load",		2,	    0},
