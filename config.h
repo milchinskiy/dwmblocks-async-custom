@@ -18,15 +18,16 @@
 
 // Define blocks for the status feed as X(cmd, interval, signal).
 #define BLOCKS(X)         \
-    X("sb-mail", 600, 1)  \
-    X("sb-music", 0, 2)   \
-    X("sb-disk", 1800, 3) \
-    X("sb-memory", 10, 4) \
-    X("sb-loadavg", 5, 5) \
-    X("sb-mic", 0, 6)     \
-    X("sb-record", 0, 7)  \
-    X("sb-volume", 0, 8)  \
-    X("sb-battery", 5, 9) \
-    X("sb-date", 1, 10)
+    X("dwmblocks_scripts --keyboard-layout", 600,    19)  \
+    X("dwmblocks_scripts --pacman-updates",	6000,   12)   \
+    X("dwmblocks_scripts --volume",          0,      10) \
+    X("dwmblocks_scripts --battery",         300,    0) \
+    X("dwmblocks_scripts --cpu-load",		2,	    0) \
+    X("dwmblocks_scripts --ram",				2,	    0)     \
+    X("dwmblocks_scripts --cpu-temp",		2,	    0)  \
+    X("dwmblocks_scripts --disk /home", 		10,	    0)  \
+    X("dwmblocks_scripts --weather",         600,    0) \
+    X("dwmblocks_scripts --wlan",            5,      18) \
+    X("dwmblocks_scripts --clock",			1,      0)
 
 #endif  // CONFIG_H
