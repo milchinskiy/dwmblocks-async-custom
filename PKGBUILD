@@ -1,6 +1,6 @@
 pkgname=dwmblocks-async
 pkgver=1.0
-pkgrel=16
+pkgrel=17
 pkgdesc="A dwm status bar that has a modular, async design, so it is always responsive"
 url="https://github.com/UtkarshVerma/dwmblocks-async"
 arch=('i686' 'x86_64')
